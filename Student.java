@@ -7,6 +7,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class Student {
 
+    @Value("22")
     private int rno;
 
     @Autowired
